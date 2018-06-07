@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  padding: 2em;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  border: 2px dotted;
+  min-height: 85vh;
+  padding: 1em 10em 1em 10em;
+}
+
+.title-div {
+  display: flex;
+  justify-content: center;
+}
+
+.title-text {
+  border: 3px dashed #009999;
+  color: #009999;
+  width: 10em;
+  padding: 0.5em;
+}
+
+.add-item-div {
+  margin-bottom: 2em;
+}
+
+.todo-li {
+  text-align: left;
+}
